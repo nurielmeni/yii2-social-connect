@@ -12,7 +12,7 @@ class SocialConnectAsset extends AssetBundle
     public $publishOptions = [
         'forceCopy' => YII_DEBUG
     ];
-    public $sourcePath = '@yii/nurielmeni/socialConnect/assets';
+    public $sourcePath = '@nurielmeni/socialConnect/assets';
     public $css = [
         'css/socialConnect.css',
         'css/socialFonts.css',
