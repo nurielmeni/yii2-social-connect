@@ -15,6 +15,11 @@ section.social-icons ul {
   padding: 0.5rem 1rem;
 }
 
+section.social-icons ul li {
+  padding: 0 0.5rem;
+  list-style: none;
+}
+
 section.social-icons ul li a {
   text-decoration: none;
 }

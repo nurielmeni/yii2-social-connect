@@ -12,7 +12,8 @@ class SocialConnectWidget extends Widget
 
     public $name = 'social-connect';
     public $cssClass = '';
-    public $size = 26;
+    public $size = '';
+    public $color = '';
     public $items = [];
 
     public function init()
@@ -27,6 +28,7 @@ class SocialConnectWidget extends Widget
             'name' => $this->name,
             'cssClass' => $this->cssClass,
             'size' => $this->size,
+            'color' => $this->color,
             'items' => $this->items
         ]);
     }
