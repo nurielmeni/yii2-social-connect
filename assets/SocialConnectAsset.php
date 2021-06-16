@@ -1,6 +1,6 @@
 <?php
 
-namespace app\widgets\socialConnect\assets;
+namespace nurielmeni\socialConnect\assets;
 
 use yii\web\AssetBundle;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace app\widgets\SocialConnect;
+namespace nurielmeni\SocialConnect;
 
 use yii\base\Widget;
 use yii\helpers\Url;
-use app\widgets\socialConnect\assets\SocialConnectAsset;
+use nurielmeni\socialConnect\assets\SocialConnectAsset;
 
 class SocialConnectWidget extends Widget
 {
