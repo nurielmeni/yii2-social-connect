@@ -14,7 +14,7 @@
 i[class^="dt-icon-"],
 i[class*=" dt-icon-"] {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "social-icons" !important;
   font-size: 16px;
