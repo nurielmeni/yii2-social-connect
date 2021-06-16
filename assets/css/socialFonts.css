@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "social-icons";
-  src: url("fonts/social-icons.eot?esfwnl");
-  src: url("fonts/social-icons.eot?esfwnl#iefix") format("embedded-opentype"),
-    url("fonts/social-icons.ttf?esfwnl") format("truetype"),
-    url("fonts/social-icons.woff?esfwnl") format("woff"),
-    url("fonts/social-icons.svg?esfwnl#social-icons") format("svg");
+  font-family: "mn-social-icons";
+  src: url("fonts/mn-social-icons.eot?esfwnl");
+  src: url("fonts/mn-social-icons.eot?esfwnl#iefix") format("embedded-opentype"),
+    url("fonts/mn-social-icons.ttf?esfwnl") format("truetype"),
+    url("fonts/mn-social-icons.woff?esfwnl") format("woff"),
+    url("fonts/mn-social-icons.svg?esfwnl#mn-social-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@ i[class*=" dt-icon-"] {
   position: relative;
   z-index: 3;
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "social-icons" !important;
+  font-family: "mn-social-icons" !important;
   font-size: 16px;
   speak: none;
   font-style: normal;
@@ -31,7 +31,7 @@ i[class*=" dt-icon-"] {
 }
 .dt-icons-selector i[class^="dt-icon-"]:before,
 .dt-icons-selector i[class*=" dt-icon-"]:before {
-  font-family: "social-icons" !important;
+  font-family: "mn-social-icons" !important;
 }
 .snapchat .soc-font-icon:before,
 .dt-icon-snapchat:before {
