@@ -1,0 +1,21 @@
+{
+    "name": "nurielmeni/yii2-social-connect",
+    "description": "Open social page by social networks",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","social"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Meni Nuriel",
+            "email": "nurielmeni@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nurielmeni\\socialConnect\\": ""
+        }
+    }
+}
