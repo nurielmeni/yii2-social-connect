@@ -2,6 +2,7 @@
 
 namespace nurielmeni\SocialConnect;
 
+use Yii;
 use yii\base\Widget;
 use yii\helpers\Url;
 use nurielmeni\socialConnect\assets\SocialConnectAsset;
