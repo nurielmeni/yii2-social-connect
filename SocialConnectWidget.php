@@ -32,9 +32,9 @@ class SocialConnectWidget extends Widget
         $i18n->translations['extensions/socialConnect/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@socialConnect/messages',
+            'basePath' => '@nurielmeni/socialConnect/messages',
             'fileMap' => [
-                '@socialConnect/messages' => 'messages.php',
+                '@nurielmeni/socialConnect/messages' => 'messages.php',
             ],
         ];
     }
