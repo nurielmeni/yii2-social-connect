@@ -23,19 +23,22 @@ class SocialConnectWidget extends Widget
     {
         parent::init();
         SocialConnectAsset::register(\Yii::$app->view);
-        $this->title = empty($this->title) ? Yii::t('socialConnect', 'Hello world') : $this->title;
+        $this->registerTranslations();
+        $this->title = empty($this->title)
+            ? Yii::t('nurielmeni/socialConnect/', $this->name . 'social page')
+            : $this->title;
     }
 
     public function registerTranslations()
     {
         $i18n = Yii::$app->i18n;
-        $i18n->translations['socialConnect/*'] = [
+        $i18n->translations['nurielmeni/socialConnect/*'] = [
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
             'basePath' => '@nurielmeni/socialConnect/messages',
-            // 'fileMap' => [
-            //     '@nurielmeni/socialConnect/messages' => 'messages.php',
-            // ],
+            'fileMap' => [
+                'nurielmeni/socialConnect/messages' => 'messages.php',
+            ],
         ];
     }
 
