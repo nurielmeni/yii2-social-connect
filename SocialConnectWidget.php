@@ -19,11 +19,12 @@ class SocialConnectWidget extends Widget
     public $color = '';
     public $image = true; // default will set for fonts (false)
     public $items = [];
+    private $path;
 
     public function init()
     {
         parent::init();
-        SocialConnectAsset::register(\Yii::$app->view);
+        $this->path = SocialConnectAsset::register(\Yii::$app->view);
         $this->registerTranslations();
         $this->title = empty($this->title)
             ? Yii::t('nurielmeni/socialConnect/', $this->name . 'social page')
@@ -54,6 +55,7 @@ class SocialConnectWidget extends Widget
             'color' => $this->color,
             'image' => $this->image,
             'items' => $this->items
+            'path' => $this->path;
         ]);
     }
 }
