@@ -54,8 +54,8 @@ class SocialConnectWidget extends Widget
             'size' => $this->size,
             'color' => $this->color,
             'image' => $this->image,
-            'items' => $this->items
-            'path' => $this->path;
+            'items' => $this->items,
+            'path' => $this->path
         ]);
     }
 }
