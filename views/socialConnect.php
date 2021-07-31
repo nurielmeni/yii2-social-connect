@@ -3,8 +3,8 @@
 		<?php foreach ($items as $social => $item) : ?>
 			<li>
 				<a class="dt-icons-selector <?= $linkClass ?>" href="<?= $item['url'] ?>" rel="noopener" title="<?= $title ?>" target="_blank">
-					<?php if ($image) : ?>
-						<img src="<?= $path->baseUrl . '/css/images/' . $social . '.svg' ?>" width="<?= $size ?>" alt="<?= $social ?> icon" class=" dt-icon-<?= $social ?>">
+					<?php if (array_key_exists('imgUrl', $items)) : ?>
+						<img src="<?= $item['imgUrl'] ?>" width="<?= $size ?>" alt="<?= $social ?> icon" class=" dt-icon-<?= $social ?>">
 					<?php else : ?>
 						<i style="<?= empty($size) ? "" : "font-size: $size; " ?><?= empty($color) ? "" : "color: $color; " ?>" ></i>
 					<?php endif; ?>
