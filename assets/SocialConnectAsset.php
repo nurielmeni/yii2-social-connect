@@ -17,4 +17,8 @@ class SocialConnectAsset extends AssetBundle
         'css/socialConnect.css',
         'css/socialFonts.css',
     ];
+
+    public $images = [
+        'images/'
+    ]
 }
