@@ -17,6 +17,7 @@ class SocialConnectWidget extends Widget
     public $linkClass = '';
     public $size = '';
     public $color = '';
+    public $image = true; // default will set for fonts (false)
     public $items = [];
 
     public function init()
@@ -51,6 +52,7 @@ class SocialConnectWidget extends Widget
             'linkClass' => $this->linkClass,
             'size' => $this->size,
             'color' => $this->color,
+            'image' => $this->image,
             'items' => $this->items
         ]);
     }

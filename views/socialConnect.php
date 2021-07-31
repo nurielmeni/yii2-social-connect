@@ -3,7 +3,11 @@
 		<?php foreach ($items as $social => $item) : ?>
 			<li>
 				<a class="dt-icons-selector <?= $linkClass ?>" href="<?= $item['url'] ?>" rel="noopener" title="<?= $title ?>" target="_blank">
-					<i style="<?= empty($size) ? "" : "font-size: $size; " ?><?= empty($color) ? "" : "color: $color; " ?>" class=" dt-icon-<?= $social ?>"></i>
+					<?php if ($image) : ?>
+						<img src="../assets/images/<?= $social ?>.svg" width="<?= $size ?>" alt="<?= $social ?> icon" class=" dt-icon-<?= $social ?>">
+					<?php else : ?>
+						<i style="<?= empty($size) ? "" : "font-size: $size; " ?><?= empty($color) ? "" : "color: $color; " ?>" ></i>
+					<?php endif; ?>
 				</a>
 			</li>
 		<?php endforeach; ?>
